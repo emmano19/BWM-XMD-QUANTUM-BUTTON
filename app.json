@@ -22,13 +22,13 @@
     },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_REPLY_STATUS": {
       "description": "Enter yes for your bot to notify people that you have viewed there status",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true
     },
     "REPLY_STATUS_TEXT": {
       "description": "Enter here your message for your bot to notify people that you have viewed there status",
@@ -38,7 +38,7 @@
     "AUTO_READ_STATUS": {
       "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
@@ -47,13 +47,13 @@
     },
     "AUTO_READ": {
       "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "BWM-XMD",
-      "required": false
+      "value": "EMMANO' GRAPH DESIGN",
+      "required": yes
     },
     "BOT_IMAGE": {
       "description": "Image URL for your bot menu",
@@ -77,7 +77,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "value": "22899924713",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
@@ -87,7 +87,7 @@
     },
     "AUTO_REACT": {
       "description": "Enter your auto react messages",
-      "value": "no",
+      "value": "salut, bienvenue chez EMMANO' GRAPH DESIGN",
       "required": false 
     },
    "AUTO_REACT_STATUS": {
@@ -97,12 +97,12 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "EMMANO' GRAPH DESIGN",
       "required": false
     },
     "SESSION_ID": {
       "description": "Your session ID",
-      "value": "",
+      "value": "BWM-XMD;;;H4sIAAAAAAAAA61W666iVhR+lWb/PWbkJheTkxQQFBUFxWvTH1vY3OTmBlTOxLdoYtPWpNOmfT4foeHomTmZtjOnSUlIYLFY6/vWXt/a+z1I0iBHA1SB9nuQ4WAPC1Q/FlWGQBtIpesiDBrAgQUEbZAPaSLtsvaxmfdtfiLsWeMwoQzE9YQpHW9mg3SQGJ0FMUxWj+DUAFm5iQL7CwETa64u3K6cjbvCZBV2Or0nojlTWqh5KEvpYTczQptpRrK/FR/BqY4IAxwknpL5KEYYRgNUGTDAb4OvSIYaM26iS1U5NxRlEHSJ4cBeq5zAjQQr9AusFkvzaEXa2+BnZpwQY16eT/rdrt71NSOUunrypC6CHlv6Hhe6eaBZ+lImbvDzwEuQozkoKYKienPdD1KMjGYYcetDM9QkLC8sltMkRUORmHg5rc06Lc83myn9xrqHzsSix1KfHPUj6hjaKR1XvWraC/31wEbDQXe99bUi2qGe/hq4gV96Zftf6h5IvYWVVG6WLlR+oNJGUCJKDAdm0oSj3V5wtzNztluouLd9G/ynhJrqM0+GorURjg65fvAmm8Lq61TY31RPckDEwXiTTqcm8wk+LEr8JZRHa2GxO9peTDt+HCoVzWkSdLUxjyYm1lf7/XC5Yc0xjphuU7D5fLVUt0US491MZXsTNicCvtlJfSGjLPi02/KT5iQVxcdnRltUaQ5ok6cGwMgL8gLDIkiT2kZRQgNAZz9FNkbFc3mBXjJPvaXsrIJqZU1MZbYr9+Ewagkcf3SxR2U7crOKUygSxCNogAynNspz5PSCvEhxpaM8hx7KQfu755WqSWMUpwXqBw5oA4riBUGgGI6kv83fHXxY5DDL3iWoAA3g4jTWEWgXuEQN8OyvUAxNSEqHlhhOUliC61AMQ5Iyw3Aip7aYmmF8y2kFMcoLGGegTXItmmYIgiRPjf8FBkMSFM1yqkgoPM1wkqxQsspIrEIyBM/JxFdgUP8TDEomFLXFtBS2RSiUJHCMwCo0I4uC0iEJjvoyDIo4fd8ACToWNzHVLUCTDeAGOC9mSZlFKXRelPbyEdp2WibFtEpsuX5AGLRfmVFRBImX18TKBGLbD/ZIrnmAtgujHH3sOoSR88LlPknl1KnFMGMWE41ix6DGXgf6vDRtkvh7dRJYO4Pr5fzj9XL+9X7/cL2cP1wv59++uV7OP10v5z/uxt+vl/PPtfF8/+PP6+X8y93pA2iA6LbOLZpkGbpFsPe8tfn0kW6NzkEFDKIctIHcn9qVqyuK/nDwebPbFRVPlD0RfCrPi/Zv2jqGGcuO7RKWkkLJZu6Zu84mWs4UwnrAcNmV5HVmmK35QbYf/yHIsxyiSIZi1E2nAa+09MMxzgyxW2jpw1FE1mDlmzQ1X+2ynjRaezN+aMxbju9FKT8guQMd6eJ4F2/xRPXlsJd1pvSqL0j1oGgAB+0DG71O5nmxsXb9ATNlh+vxmJw2j0vX248S0ivW5MbdL1uY4Zn5xOoP9prq5pS64nrZoNTImW4FaNSnXGaDCL5flZnAd+glNZK921R6norRfTcK7vMieH51A/Q83O8r/LVGuOGu25U4NV6FuO8W/zJxJXvFojJMhjH2JiNvO9SUgUe15qQ0Upo7Kjp6ZgwtYjy3xQScat1kESzcFMf1WSTeQNAAOC3r5tcSN/1CJln0tI55Yx3BvBA/CepzjdKCIJA3LwOnWQ/mfn1QiWlpU4ujErNsWsDiRZ5ArC9jqYDTX1K3GlVOCQAA",
       "required": true
     },    
     "STARTING_BOT_MESSAGE": {
@@ -112,7 +112,7 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "1",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
@@ -132,12 +132,12 @@
     },
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "WELCOME_MESSAGE": {
       "description": "Enable welcoming message in groups (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "GOODBYE_MESSAGE": {
@@ -147,7 +147,7 @@
     },
     "AUDIO_CHATBOT": {
       "description": "Enable audio chatbot (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     }
   },
