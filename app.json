@@ -53,7 +53,7 @@
     "BOT_NAME": {
       "description": "Name for your bot",
       "value": "EMMANO' GRAPH DESIGN",
-      "required": yes
+      "required": false
     },
     "BOT_IMAGE": {
       "description": "Image URL for your bot menu",
